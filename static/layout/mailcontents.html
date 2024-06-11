@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Recover Account</title>
+    <style>
+        .lms-msg-wrapper {
+            position: relative;
+            background: #0a2534;
+            border-radius: 5px;
+            padding-left: 30px;
+            padding-right: 30px;
+            -webkit-box-shadow: 0px 10px 34px -15px rgb(0 0 0 / 24%);
+            -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+            box-shadow: 0px 10px 34px -15px rgb(0 0 0 / 24%);
+            margin: auto;
+            padding-top: 23px;
+            top: 20px;
+            padding-bottom: 17px;
+            width: 50%;
+            color: white;
+            font-family: sans-serif;
+        }
+        
+        .lms-msg-wrapper span {
+            margin-bottom: 3px;
+            color: rgba(255, 255, 255, .5);
+            text-align: center;
+            margin: 0;
+            font-size: 14px;
+            padding-bottom: 17px;
+            padding-top: 24px;
+        }
+        
+        .lms-nav-link {
+            display: inline-block;
+            padding: 13px 23px;
+            border: 2px solid dodgerblue;
+            border-radius: 8.5px;
+            background-color: dodgerblue;
+            color: #fff;
+            font: 700 12px sans-serif;
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        
+        .lms-nav-link:hover {
+            color: dodgerblue;
+            background-color: transparent;
+        }
+        
+        .lms-container {
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <article>
+
+        <section>
+            <div class="lms-msg-wrapper">
+                <h3>Recover LMS Account</h3>
+                <div class="lms-container">
+                    <p>Hi {{USER}}, <a class="lms-nav-link" href="{{LINK}}">click me</a> to recover your LMS account, this link will be valid only for 10 minutes</p>
+                    <br><br>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+
+.toast {
+	background-color: #E91E63;
+    /* width: 423px; */
+    position: relative;
+    padding: 9px;
+    margin: 4px;
+    border-radius: 15px;
+    /* top: -85px; */
+    z-index: 1;
+    border: black solid 2px;
+    font-size: 14px;
+}
+.close-toast{
+	font-size: 26px;
+	position: absolute;
+	cursor: pointer;
+	margin-left: 87%;
+	margin-top: -7px;
+	color: white;
+}
+.toast-symbols {
+	padding: 0px 12px 3px 4px;
+    font-size: 21px !important;
+}
+.danger{
+	background-color: #F44336 !important;
+    border-color: black;
+    border-style: groove;
+}
+.info{
+	background-color: #00BCD4 !important;
+    border-color: black;
+    border-style: groove;
+}
+.success{
+	background-color: #4CAF50 !important;
+    border-color: black;
+    border-style: groove;
+}
+.warning{
+	background-color: #FF9800 !important;
+    border-color: black;
+    border-style: groove;
+}
+#toast-container{
+	position: fixed;
+    right: 2px;
+    top: 10px;
+    z-index: 100;
+    margin-top: 37px;
+    width: 30%;
+    color: white;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+	#toast-container {
+		width: 69%;
+	}
+
+}

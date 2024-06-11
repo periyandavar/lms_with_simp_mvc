@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Library</title>
+    <meta charset="utf-8">
+    <meta name="author" content="periyandavar">
+    <meta name="discription" content="library Mangement system">
+    <meta name="keywords" content="Library, LMS">
+    <meta name="viewport" content="height=device-height, 
+                      width=device-width, initial-scale=1.0, 
+                      minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/png" href="/static/img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/static/css/form.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/core.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/toast.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/preloader.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="body">
+
+    <div class="preloader" id="loader">
+        <div class="loader l-0">
+            <div class="loader l-1">
+                <div class="loader l-2">
+                    <div class="loader l-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="left-cover"></div>
+    <div class="right-cover"></div>
+    <!-- href to move top of the page-->
+    <a href="#body" id="back-to-top"></a>
+
+    <!-- Navigation Menu-->
+    <nav id="fixed-top" class="navbar fixed-top">
+
+        <!-- Image Logo -->
+        <a class="navbar-logo" href="/"><img src="/static/img/favicon.png">&nbsp;LMS</a>
+
+        <button class="navbar-toggler" type="button" onclick="menucontrol();">
+                <span class="" id="open-menu"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                <span class="closed-nav" id="close-menu"><i class="fa fa-times" aria-hidden="true"></i></span>
+            </button>
+
+        <div class="expand-navbar closed-nav" id="menu">
+            <ul class="navbar-nav unstyle-list">
+                <li class="nav-item">
+                    <a class="nav-link" id="menu-home" href="/">HOME </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menu-books" href="/books">BOOKS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menu-aboutus" href="/aboutus">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menu-contact" href="#footer">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menu-login" href="/login">LOGIN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menu-register" href="/signup">REGISTER</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- Navigation ends --><!-- header starts -->
+<header class="err-404-container">
+    <div class="header-content">
+        <div class="container">
+            <div class="row">
+                <div class="cols">
+                    <div class="text-container">
+                        <div class='msg-card'>
+                            <h1>404 Page Not Found</h1><br>
+                            <p class="heading-para">The Page you're looking for isn't here.This may be missing or temporarily unavailable.You can click the button below to go back to the homepage.</p>
+                            <a class="btn-link" href="/">GO TO HOME</a>
+                        </div>    
+                    </div>
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+</header> 
+<!-- header ends -->
+<script src="/static/js/core.js"></script>
+<script src="/static/js/scriptHome.js"></script>
+</body>
+
+</html>

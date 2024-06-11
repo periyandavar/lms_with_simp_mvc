@@ -1,0 +1,124 @@
+.table-form-control {
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+}
+
+.table-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+}
+
+.tab_design {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.tab_design th {
+    background-color: #0ea5de;
+}
+
+.tab_design th,
+.tab_design td {
+    text-align: left;
+    padding: 12px;
+    margin: 7px;
+}
+
+.tab_design tr:hover {
+    background-color: #ffffff;
+}
+
+.tab_design tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.tab_design tr:nth-child(even) {
+    background-color: #d8e6f7;
+}
+
+.table-panel {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*pagination*/
+
+.pagination {
+    list-style: none;
+}
+
+.dropdown {
+    height: inherit;
+}
+
+.pagination a {
+    text-decoration: none;
+    /* padding: 6px 12px; */
+}
+
+.pagination li {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    /* margin-left: -1px; */
+    line-height: 1.42857143;
+    color: #428bca;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.pagination .disable {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #ddd;
+    border-color: #ab9f9f;
+}
+
+.pagination .active {
+    background: #1e90ffa8;
+}
+
+.pagination .active a {
+    color: #232222;
+}
+
+.pagination .disable a {
+    color: #232222;
+}
+
+.pagination .active a {
+    cursor: not-allowed;
+}
+
+.pagination .active {
+    cursor: not-allowed;
+}
+
+.table-panel .form-input-div input {
+    width: 80%;
+}
+
+@media screen and (max-width: 992px) {
+    .table-panel {
+        flex-direction: column;
+    }
+}

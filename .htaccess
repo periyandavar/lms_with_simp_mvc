@@ -1,0 +1,25 @@
+#Rewrite all request to index.php
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} ^(.+)$
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteRule ^api/([\s\S]*)$ api.php?name=$1 [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ index.php/$1 [L]
+
+#Deny directory access
+Options -Indexes
+
+#Deny log files access
+<Files ~ "^.*\.(LOG|log)">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</Files>
+
+#Deny env file access
+<Files ~ "^.*\.(env)">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</Files>

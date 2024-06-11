@@ -1,0 +1,223 @@
+.login-wrapper {
+    position: relative;
+    background: #0a2534;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-box-shadow: 0px 10px 34px -15px rgb(0 0 0 / 24%);
+    -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 10px 34px -15px rgb(0 0 0 / 24%);
+    margin: auto;
+    padding-top: 43px;
+    padding-bottom: 17px;
+}
+
+.row {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section .container {
+    width: unset;
+}
+
+body {
+    background: #1287cc;
+    background: -webkit-linear-gradient(to right, #1CB5E0, #1287cc);
+    background: linear-gradient(to right, #1CB5E0, #1287cc);
+}
+
+.logo-banar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url(../img/favicon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+}
+
+.img-container {
+    padding: 12px;
+}
+
+.login-wrapper h3 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.login-wrapper p {
+    margin-top: 0;
+    margin-bottom: 3px;
+    color: rgba(255, 255, 255, .5);
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    padding-bottom: 17px;
+}
+
+.login-wrapper .form-control {
+    border: 0px;
+    border-bottom: 1px solid #1e88e5;
+    background: transparent;
+    color: white;
+    display: inline;
+    width: 83%;
+}
+
+.login-wrapper .form-control:focus {
+    border: 0px;
+    border-bottom: 1px solid #b689b0;
+    background: transparent;
+}
+
+.login-wrapper .form-control::placeholder {
+    color: white;
+}
+
+.form-input-div input.verfcode::placeholder {
+    color: white;
+}
+
+.form-input-div input.verfcode {
+    width: 144px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid dodgerblue;
+    background: transparent;
+    border-radius: 4px;
+    color: white;
+}
+
+.form-input-div i {
+    color: white;
+}
+
+@media screen and (max-width:394px) {
+    .login-wrapper .form-control {
+        /* display: none; */
+        width: 62%;
+    }
+    .form-input-div input.verfcode {
+        width: 62%;
+    }
+}
+
+
+/* .container {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+} */
+
+
+/* .left-panel-login img{
+    float: left;
+    height: 100%;
+    width: 52%;
+    position: fixed;
+    top: 0;
+    display: block;
+    bottom: 0;
+}
+.left-panel-login img:hover{
+    transform: scaleX(-1);
+}
+.right-panel-login{
+    width: 46%;
+    padding: 16px;
+    margin: -2px;
+    height: 100%;
+    position: relative;
+    left: 24%;
+    top: 20%;
+}
+body{
+    background: #0575E6;
+    background: -webkit-linear-gradient(to left, #021B79, #0575E6);
+    background: linear-gradient(to left, #021B79, #0575E6);
+}
+article{
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    margin: -8px;
+}
+.logo-banar{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: #312b2b solid 2px;
+    background-color: white;
+    padding: 7px;
+    margin-bottom: 17px;
+    max-width: 400px;
+    height: auto;
+}
+.right-panel-login h1{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 8px;
+    margin: 7px;
+}
+.login-wrapper{
+    padding: 31px;
+    margin: 29px;
+    border: #ddd groove 2px;
+    margin-top: 14%;
+    margin-bottom: 14%;
+    background: #636363;
+    background: -webkit-linear-gradient(to left, #a2ab58, #636363);
+    background: linear-gradient(to left, #a2ab58, #636363);
+    border-radius: 16px;
+    box-shadow: 8px 9px 10px 5px #000000ba;
+}
+.login-wrapper:hover{
+    box-shadow:  -8px -9px 10px 5px #000000ba;
+}
+.form-input-div{
+    margin: 17px;
+}
+.button-control{
+    margin-bottom: 12px;
+    margin-left: 43%;
+    margin-top: 14px;
+    width: 61px;
+    height: 45px;
+}
+.msg {
+    text-align: center;
+    font-size: 18px;
+    color: #e90909;
+    font-weight: 600;
+}
+
+Media Queries
+@media all and (max-width:800px){
+    .left-panel-login img{
+        width: 40%;
+    }
+    .right-panel-login{
+        width: 60%;
+    }
+}
+@media all and (max-width:600px){
+    .left-panel-login img {
+        display: none;
+    }
+    .right-panel-login{
+        width: 100%;
+        background-image: url("../img/login.jpg");
+        position: relative;
+    }
+    .logo-banar{
+        max-width: 146px;
+    }
+} */
